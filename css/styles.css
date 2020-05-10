@@ -5,7 +5,22 @@
 a,
 a:focus,
 a:hover {
-  color: #fff; }
+  color: pink;
+  font-size: 1rem; }
+
+.btn-primary {
+  color: black;
+  background-color: pink;
+  border-color: black;
+  border-width: thick;
+  border-style: double;
+  font-family: "Mrs Eaves"; }
+
+.btn-primary:hover {
+  background-color: black;
+  /* Green */
+  color: pink;
+  border-color: pink; }
 
 /* Custom default button */
 .btn-secondary,
@@ -25,12 +40,23 @@ body {
   height: 100%;
   background-color: #333; }
 
+.h1, h1 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-family: "gill sans";
+  font-weight: lighter; }
+
 body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); }
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  background: black;
+  color: pink;
+  font-family: "Mrs Eaves";
+  font-size: 1.5rem;
+  line-height: 1.5; }
 
 .cover-container {
   max-width: 42em; }
@@ -59,8 +85,9 @@ body {
   margin-left: 1rem; }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff; }
+  color: pink;
+  border-bottom-color: pink;
+  border-bottom-style: double; }
 
 @media (min-width: 48em) {
   .masthead-brand {
